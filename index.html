@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="um quizz interativo para fãs de Dragon Ball">
+        <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="style.css">
+        <title>Quiz de Dragon Ball</title>
+    </head>
+    <body>
+    
+        <header>
+            <h1>Quiz Interativo para Fãs de Dragon Ball</h1>
+            <p>Testes seus conhecimentos sobre seu anime favorito e veja sua pontuação!</p>
+        </header>
+        <main>
+            <section class="principal">
+                <h2>Sobre esse Quizz</h2>
+                <p>A obra <strong>Dragon Ball</strong> é um dos animes mais influentes da história, combinando ação, aventura e momentos de humor em uma narrativa envolvente. A história acompanha o crescimento e as jornadas de <abbr title="Protagonista da obra">Goku</abbr>, um <em>guerreiro de coração puro</em> que está sempre em busca de se tornar mais forte, enfrentando desafios cada vez maiores ao longo do caminho.</p>
+                <p>Você encontrará diversos tipos de perguntas, incluindo múltipla escolha etc...</p>
+                <p>Nesse quizz vocês vão questionar seus conhecimentos sobre o anime, e aprender sobre o mesmo. <br>
+                    Divirtam-se!</p>
+            </section>
+            <!--PERGUNTA 1: múltipla escolha-->
+            <section>
+                <h2>Pergunta 1: Qual é o nome do segundo filho de Goku?</h2>
+                <form>
+                    <input type="radio" value="trunks" id="p1a" name="pergunta1"> 
+                    <label for="p1a">Trunks</label> <br>
+                    <input type="radio" value="Gohan" id="p1b" name="pergunta1"> 
+                    <label for="p1b">Gohan</label> <br>
+                    <input type="radio" value="Goten" id="p1c" name="pergunta1"> 
+                    <label for="p1c">Goten</label> <br>
+                    <input type="radio" value="Turles" id="p1d" name="pergunta1"> 
+                    <label for="p1d">Turles</label> <br>
+                </form>
+            </section>
+            <!--PERGUNTA 2: texto -->
+            <section>
+                <h2>Pergunta 2: Qual foi a saga que introduziu o personagem Trunks?</h2>
+                <form>
+                    <input type="text" id="p2" name="pergunta2" placeholder="Digite sua resposta:">
+                </form>
+            </section>
+            <!--PERGUNTA 3: SENHA -->
+            <section>
+                <h2>Pergunta 3: Crie uma senha misturando o nome desses três pergonagens: <em>Bardock, Chichi e Vegeta.</em> </h2>
+                <form>
+                 <input type="password" id="p3" name="pergunta3" placeholder="Digite uma senha...">             
+                 </form>
+            </section>
+            <!--PERGUNTA 4: DATA -->
+            <section>
+                <h2>Quando foi lançado a notícia de que <em>Dragon Ball Super</em> teria continuação?</h2>
+                <form>
+                    <input type="date" id="p4" name="pergunta4">
+                </form>
+            </section>
+            <!--PERGUNTA 5: seleção multipla-->
+            <section>
+            <h2>Pergunta 5: Quais desses personagens são do <em>Universo 6</em> de Dragon Ball Super:
+            </h2>
+            <form>
+                <input type="checkbox" id="p5a" name="pergunta5" value="Jiren">
+                <label for="p5a">Jiren</label> <br>
+                <input type="checkbox" id="p5b" name="pergunta5" value="Hit">
+                <label for="p5b">Hit</label> <br>
+                <input type="checkbox" id="p5c" name="pergunta5" value="Bardock">
+                <label for="p5c">Bardock</label> <br>
+                <input type="checkbox" id="p5d" name="pergunta5" value="Champa">
+                <label for="p5d">Champa</label> <br>
+                <input type="checkbox" id="p5e" name="pergunta5" value="Zamasu">
+                <label for="p5e">Zamasu</label> <br>
+            </form>
+               </section>
+            <!--PERGUNTA 6: upload -->
+            <section>
+                <h2>Pergunta 6: Faça um upload contendo uma imagem de um dos anjos dos 13 universos de Dragon Ball</h2>
+                <form>
+                    <input type="file" id="p6" name="pergunta6">
+                </form>
+            </section>
+            <!--PERGUNTA 7: menu suspenso-->
+            <section>
+                <h2>Pergunta 7: Selecione o personagem que foi o primeiro a introduzir a técnica de voar em Dragon Ball Clássico: </h2>
+                <form>
+                    <select name="pergunta7" id="p7">
+                    <option value="Kuririn">Kuririn</option>
+                    <option value="Tenshinhan">Tenshinhan</option>
+                    <option value="Goku">Goku</option>
+                    <option value="Picollo">Picollo</option>
+                    </select>
+                </form>
+            </section>
+            <!--PERGUNTA 8: imagem-->
+            <section>
+                <h2>Qual é o nome do personagem abaixo?</h2>
+                <figure><img src="imagens/jacodb.jpeg" alt="Imagem de um personagem de Dragon Ball Super">
+                <figcaption>Figura 1: personagem do anime Dragon Ball Super.</figcaption>
+                </figure>
+                <form>
+                    <input type="text" name="pergunta8" id="p8" placeholder="Digite sua resposta...">
+                </form>
+            </section>
+            <!--TABELA-->
+            
+            <section>
+                <h2>Tabela de pontuação:</h2>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Pontuação</th>
+                            <th>Avaliação</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>0-2</td>
+                            <td> Não desista! Cada tentativa é uma oportunidade para aprender.</td>
+                        </tr>
+                        <tr>
+                            <td>2-5</td>
+                            <td> É isso aí! Quase um verdadeiro fã, continue assim.</td>
+                        </tr>
+                        <tr>
+                            <td>5-7</td>
+                            <td> Parabéns!! Faltou muito pouco, não desista!.</td>
+                        </tr>
+                        <tr>
+                            <td>8</td>
+                            <td>Excelente! Encontramos um verdadeiro fã.</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <td colspan="2">
+                            Boa sorte na próxima! Aproveite e assista de novo para relembrar.
+                        </td>
+                    </tfoot>
+                </table>
+            </section>
+            <!--Lista de respostas-->
+            <section>
+                <h2>
+                    Verifique suas respostas
+                </h2>
+                <details>
+                    <summary>Clique aqui para ver as respostas do quizz</summary>
+                    <ol>
+                        <li>Goten</li>
+                        <li>Saga dos Androids</li>
+                        <li>Ex: BarChiTa </li>
+                        <li>24/01/2026</li>
+                        <li>Hit e Champa</li>
+                        <li>Os anjos são:
+                            U1: Awamo - U2: Sour -  U3: Campari  - U4: Cognic - U5: Cukatail -  U6: Vados -  U7: Whis -  U8: Korn - U9: Mojito -  U9: Mojito - U10: Kusu -   U11: Marcarita - U12: Martinu  </li>
+                        <li>Tenshinhan</li>
+                        <li>Jaco</li>
+                    </ol>
+                </details>
+            </section>
+            <!--formulário de feedback-->
+            <section>
+                <h2>Nos dê o seu feedback</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações de contato</legend>
+                        <label for="name">Nome</label>
+                        <input type="text" id="name" name="nome"> <br>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"> <br>
+                        <label for="comentarios">Comentários:</label> <br>
+                        <textarea name="comentarios" id="comentarios" rows="4" cols="50" placeholder="Digite seus comentários aqui..."></textarea>
+                        <button onclick="alert('FEEDBACK ENVIADO')" >Enviar formulário</button>
+                    </fieldset>
+                </form>
+            </section>
+           </main>
+        <footer>
+            <p class="parafooter">Quiz de Dragon Ball. &copy; Todos os direitos reservados  </p>
+            <p class="parafooter"> Para conhecer mais sobre mim <a href="#" target="_blank">clique aqui</a></p>
+        </footer>
+    </body>
+</html>
